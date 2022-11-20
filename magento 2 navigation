@@ -1,0 +1,25 @@
+{
+  "name": "magento-2-navigation",
+  "description": "Magento 2 Navigation",
+  "require": {
+    "stoneandhome/module-core": "^1.4.5"
+  },
+  "type": "magento2-module",
+  "version": "4.0.2",
+  "license": "proprietary",
+  "authors": [
+    {
+      
+      "homepage": "https://stoneandhome.ru/",
+      "role": "Technical Support"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Stoneandhome\\Navigation\\": ""
+    }
+  }
+}
